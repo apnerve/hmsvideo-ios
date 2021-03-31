@@ -69,6 +69,8 @@ typedef NS_ENUM(NSInteger, HMSErrorCode) {
 	kHMSInvalidServerResponseErrorCode = 4102,
 	// Failed to establish RTCPeerConnection 
 	kHMSPeerConnectionFailedErrorCode = 4103,
+	// Can't unpublish a stream that is not published 
+	kHMSUnpublishCalledBeforePublishErrorCode = 4104,
 		
 	// Generic Errors 
 		
