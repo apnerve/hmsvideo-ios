@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-extern NSString *const kHMSVideoErrorDomain;
+extern NSString * _Nonnull const kHMSVideoErrorDomain;
 
 typedef NS_ENUM(NSInteger, HMSErrorCode) {
 		
@@ -89,7 +89,7 @@ typedef NS_ENUM(NSInteger, HMSErrorCode) {
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HMSError : NSError
-
+@property (nonatomic, readonly) BOOL canRetry;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HMSVideo'
-  s.version          = '0.10.3'
+  s.version          = '0.10.4'
   s.summary          = 'HMSVideo Videoconferencing iOS SDK'
 
   s.description      = <<-DESC
