@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger audioBitrate;
 @property (nonatomic, assign) BOOL shouldPublishAudio;
 @property (nonatomic, assign) BOOL shouldPublishVideo;
+@property (nonatomic, assign) BOOL optimiseForMusicStreaming;
 @end
 
 NS_ASSUME_NONNULL_END
