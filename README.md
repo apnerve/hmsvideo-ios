@@ -1,5 +1,7 @@
 # 100ms Sample iOS App in Swift
 
+This repo has been archived. Please use the 100ms iOS SDK provided here: https://github.com/100mslive/100ms-ios-sdk
+
 ## **Setup**
 
 This repository contains example code written in Swift.
